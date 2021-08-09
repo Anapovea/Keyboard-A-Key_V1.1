@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name acheronSymbols)(type Legacy)(uri ${KIPRJMOD}/Libraries/AcheronLibrary-master/AcheronLibrary-master/symbols/acheronSymbols.lib)(options "")(descr ""))
+  (lib (name TYPE-C-31-M-12)(type Legacy)(uri ${KIPRJMOD}/Libraries/TYPE-C-31-M-12/TYPE-C-31-M-12.lib)(options "")(descr ""))
+)
