@@ -393,7 +393,7 @@ U 1 1 611A28BB
 P 8050 9000
 F 0 "J1" H 7721 9096 50  0000 R CNN
 F 1 "AVR-ISP-6" H 7721 9005 50  0000 R CNN
-F 2 "acheron_Connectors:PinHeader_1x6_P2.54mm_Vertical" V 7800 9050 50  0001 C CNN
+F 2 "acheron_Connectors:PinHeader_2x3_P2.54mm_Vertical" V 7800 9050 50  0001 C CNN
 F 3 " ~" H 6775 8450 50  0001 C CNN
 	1    8050 9000
 	1    0    0    -1  
@@ -2953,4 +2953,45 @@ Wire Wire Line
 	15200 5400 15200 4250
 Connection ~ 15200 5400
 Connection ~ 15200 4250
+Text GLabel 3400 9750 2    50   Input ~ 0
+Row_0
+Text GLabel 3400 10450 2    50   Input ~ 0
+Row_4
+Text GLabel 3400 10150 2    50   Input ~ 0
+Row_1
+Text GLabel 3400 10050 2    50   Input ~ 0
+Row_3
+Text GLabel 3400 9950 2    50   Input ~ 0
+Row_2
+Text GLabel 3400 7950 2    50   Input ~ 0
+Col_0
+Text GLabel 3400 8050 2    50   Input ~ 0
+Col_1
+Text GLabel 3400 8150 2    50   Input ~ 0
+Col_2
+Text GLabel 3400 8450 2    50   Input ~ 0
+Col_3
+Text GLabel 3400 8550 2    50   Input ~ 0
+Col_4
+Text GLabel 3400 10350 2    50   Input ~ 0
+Col_6
+Text GLabel 3400 10250 2    50   Input ~ 0
+Col_5
+Text GLabel 3400 8750 2    50   Input ~ 0
+Col_8
+Text GLabel 3400 8850 2    50   Input ~ 0
+Col_9
+Text GLabel 3400 7550 2    50   Input ~ 0
+Col_7
+Text GLabel 3400 8950 2    50   Input ~ 0
+Col_10
+Text GLabel 3400 9050 2    50   Input ~ 0
+Col_11
+Text GLabel 3400 9150 2    50   Input ~ 0
+Col_12
+Text GLabel 3400 9250 2    50   Input ~ 0
+Col_13
+NoConn ~ 3400 9350
+NoConn ~ 3400 9450
+NoConn ~ 3400 8250
 $EndSCHEMATC
