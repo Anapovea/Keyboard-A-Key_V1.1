@@ -1,0 +1,2030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\anapov\Desktop\PCB Projects\2021_08_A_Key_V1.1\A_Key_V1.1.sch</source>
+    <date>12/08/2021 17:18:13</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>A-Key</title>
+        <company/>
+        <rev>1.1</rev>
+        <date/>
+        <source>A_Key_V1.1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Y1">
+      <value>Crystal</value>
+      <footprint>Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm_HandSoldering</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6111533C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61118902</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22p</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6111B99F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6112D16E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61134097</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6113B3FE</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61147E76</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_Push</value>
+      <footprint>acheron_Hardware:smdPushBtn</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611382F8</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6116633A</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611888AC</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61188D59</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61189364</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61189870</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>AVR-ISP-6</value>
+      <footprint>acheron_Connectors:PinHeader_2x3_P2.54mm_Vertical</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="AVR-ISP-6" description="Atmel 6-pin ISP connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611A28BB</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611538E5</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611FB4BA</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611FB4C7</tstamp>
+    </comp>
+    <comp ref="SW7">
+      <value>[1]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>611FB4CD</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>[\]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61227380</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6125D793</tstamp>
+    </comp>
+    <comp ref="SW12">
+      <value>[2]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6125D799</tstamp>
+    </comp>
+    <comp ref="D16">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61260C5A</tstamp>
+    </comp>
+    <comp ref="SW17">
+      <value>[3]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61260C60</tstamp>
+    </comp>
+    <comp ref="D20">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61264395</tstamp>
+    </comp>
+    <comp ref="SW21">
+      <value>[4]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6126439B</tstamp>
+    </comp>
+    <comp ref="D24">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6126F07F</tstamp>
+    </comp>
+    <comp ref="SW25">
+      <value>[5]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6126F085</tstamp>
+    </comp>
+    <comp ref="D28">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6126F08D</tstamp>
+    </comp>
+    <comp ref="SW29">
+      <value>[6]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6126F093</tstamp>
+    </comp>
+    <comp ref="D33">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6126F09B</tstamp>
+    </comp>
+    <comp ref="SW34">
+      <value>[7]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6126F0A1</tstamp>
+    </comp>
+    <comp ref="D37">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61280A7E</tstamp>
+    </comp>
+    <comp ref="SW38">
+      <value>[8]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61280A84</tstamp>
+    </comp>
+    <comp ref="D41">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61280A8C</tstamp>
+    </comp>
+    <comp ref="SW42">
+      <value>[9]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61280A92</tstamp>
+    </comp>
+    <comp ref="D45">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61280A9A</tstamp>
+    </comp>
+    <comp ref="SW46">
+      <value>[0]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61280AA0</tstamp>
+    </comp>
+    <comp ref="D50">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61280AA8</tstamp>
+    </comp>
+    <comp ref="SW51">
+      <value>[?]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61280AAE</tstamp>
+    </comp>
+    <comp ref="D55">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61280AB6</tstamp>
+    </comp>
+    <comp ref="SW56">
+      <value>[¿]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61280ABC</tstamp>
+    </comp>
+    <comp ref="D60">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61280AC4</tstamp>
+    </comp>
+    <comp ref="SW61">
+      <value>[Backspc]</value>
+      <footprint>acheron_MX:MX200</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61280ACA</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6132D9F3</tstamp>
+    </comp>
+    <comp ref="SW3">
+      <value>[LTab]</value>
+      <footprint>acheron_MX:MX150</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6132D9F9</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6133D357</tstamp>
+    </comp>
+    <comp ref="SW8">
+      <value>[Q]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6133D35D</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6135B938</tstamp>
+    </comp>
+    <comp ref="SW13">
+      <value>[W]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6135B93E</tstamp>
+    </comp>
+    <comp ref="D17">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61362FE6</tstamp>
+    </comp>
+    <comp ref="SW18">
+      <value>[E]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61362FEC</tstamp>
+    </comp>
+    <comp ref="D21">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6136B0AA</tstamp>
+    </comp>
+    <comp ref="SW22">
+      <value>[R]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6136B0B0</tstamp>
+    </comp>
+    <comp ref="D25">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61372DFE</tstamp>
+    </comp>
+    <comp ref="SW26">
+      <value>[T]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61372E04</tstamp>
+    </comp>
+    <comp ref="D29">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6137B6D4</tstamp>
+    </comp>
+    <comp ref="SW30">
+      <value>[Y]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6137B6DA</tstamp>
+    </comp>
+    <comp ref="D34">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61383D2B</tstamp>
+    </comp>
+    <comp ref="SW35">
+      <value>[U]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61383D31</tstamp>
+    </comp>
+    <comp ref="D38">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6138C8B1</tstamp>
+    </comp>
+    <comp ref="SW39">
+      <value>[I]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6138C8B7</tstamp>
+    </comp>
+    <comp ref="D42">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613953F5</tstamp>
+    </comp>
+    <comp ref="SW43">
+      <value>[O]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613953FB</tstamp>
+    </comp>
+    <comp ref="D46">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6139E4DD</tstamp>
+    </comp>
+    <comp ref="SW47">
+      <value>[P]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6139E4E3</tstamp>
+    </comp>
+    <comp ref="D51">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A7830</tstamp>
+    </comp>
+    <comp ref="SW52">
+      <value>[^]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A7836</tstamp>
+    </comp>
+    <comp ref="D56">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613B0C05</tstamp>
+    </comp>
+    <comp ref="SW57">
+      <value>[*]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613B0C0B</tstamp>
+    </comp>
+    <comp ref="D61">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613BAF05</tstamp>
+    </comp>
+    <comp ref="SW62">
+      <value>[Enter1.5]</value>
+      <footprint>acheron_MX:MX150</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613BAF0B</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A8B8</tstamp>
+    </comp>
+    <comp ref="SW4">
+      <value>[LCaps]</value>
+      <footprint>acheron_MX:MX175</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A8BE</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A8C7</tstamp>
+    </comp>
+    <comp ref="SW9">
+      <value>[A]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A8CD</tstamp>
+    </comp>
+    <comp ref="D13">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A8D6</tstamp>
+    </comp>
+    <comp ref="SW14">
+      <value>[S]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A8DC</tstamp>
+    </comp>
+    <comp ref="D18">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A8E3</tstamp>
+    </comp>
+    <comp ref="SW19">
+      <value>[D]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A8E9</tstamp>
+    </comp>
+    <comp ref="D22">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A8F0</tstamp>
+    </comp>
+    <comp ref="SW23">
+      <value>[F]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A8F6</tstamp>
+    </comp>
+    <comp ref="D26">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A8FD</tstamp>
+    </comp>
+    <comp ref="SW27">
+      <value>[G]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A903</tstamp>
+    </comp>
+    <comp ref="D30">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A90A</tstamp>
+    </comp>
+    <comp ref="SW31">
+      <value>[H]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A910</tstamp>
+    </comp>
+    <comp ref="D35">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A917</tstamp>
+    </comp>
+    <comp ref="SW36">
+      <value>[J]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A91D</tstamp>
+    </comp>
+    <comp ref="D39">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A924</tstamp>
+    </comp>
+    <comp ref="SW40">
+      <value>[K]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A92A</tstamp>
+    </comp>
+    <comp ref="D43">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A931</tstamp>
+    </comp>
+    <comp ref="SW44">
+      <value>[L]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A937</tstamp>
+    </comp>
+    <comp ref="D47">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A93E</tstamp>
+    </comp>
+    <comp ref="SW48">
+      <value>[Ñ]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A944</tstamp>
+    </comp>
+    <comp ref="D52">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A94B</tstamp>
+    </comp>
+    <comp ref="SW53">
+      <value>[¨]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A951</tstamp>
+    </comp>
+    <comp ref="D57">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A958</tstamp>
+    </comp>
+    <comp ref="SW58">
+      <value>[Ç]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148A95E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D5891</tstamp>
+    </comp>
+    <comp ref="SW5">
+      <value>[LShift]</value>
+      <footprint>acheron_MX:MX125</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D5897</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58A0</tstamp>
+    </comp>
+    <comp ref="SW10">
+      <value>[&gt;]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58A6</tstamp>
+    </comp>
+    <comp ref="D14">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58AF</tstamp>
+    </comp>
+    <comp ref="SW15">
+      <value>[Z]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58B5</tstamp>
+    </comp>
+    <comp ref="D19">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58BC</tstamp>
+    </comp>
+    <comp ref="SW20">
+      <value>[X]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58C2</tstamp>
+    </comp>
+    <comp ref="D23">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58C9</tstamp>
+    </comp>
+    <comp ref="SW24">
+      <value>[C]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58CF</tstamp>
+    </comp>
+    <comp ref="D27">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58D6</tstamp>
+    </comp>
+    <comp ref="SW28">
+      <value>[V]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58DC</tstamp>
+    </comp>
+    <comp ref="D31">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58E3</tstamp>
+    </comp>
+    <comp ref="SW32">
+      <value>[B]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58E9</tstamp>
+    </comp>
+    <comp ref="D36">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58F0</tstamp>
+    </comp>
+    <comp ref="SW37">
+      <value>[N]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58F6</tstamp>
+    </comp>
+    <comp ref="D40">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D58FD</tstamp>
+    </comp>
+    <comp ref="SW41">
+      <value>[M]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D5903</tstamp>
+    </comp>
+    <comp ref="D44">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D590A</tstamp>
+    </comp>
+    <comp ref="SW45">
+      <value>[;]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D5910</tstamp>
+    </comp>
+    <comp ref="D48">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D5917</tstamp>
+    </comp>
+    <comp ref="SW49">
+      <value>[:]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D591D</tstamp>
+    </comp>
+    <comp ref="D53">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D5924</tstamp>
+    </comp>
+    <comp ref="SW54">
+      <value>[_]</value>
+      <footprint>acheron_MX:MX100</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D592A</tstamp>
+    </comp>
+    <comp ref="D58">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D5931</tstamp>
+    </comp>
+    <comp ref="SW59">
+      <value>[RShift]</value>
+      <footprint>acheron_MX:MX150</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615D5937</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F769</tstamp>
+    </comp>
+    <comp ref="SW6">
+      <value>[LCtrl]</value>
+      <footprint>acheron_MX:MX125</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F76F</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F778</tstamp>
+    </comp>
+    <comp ref="SW11">
+      <value>[Win]</value>
+      <footprint>acheron_MX:MX125</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F77E</tstamp>
+    </comp>
+    <comp ref="D15">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F787</tstamp>
+    </comp>
+    <comp ref="SW16">
+      <value>[Alt]</value>
+      <footprint>acheron_MX:MX125</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F78D</tstamp>
+    </comp>
+    <comp ref="D32">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F7BB</tstamp>
+    </comp>
+    <comp ref="SW33">
+      <value>[Space]</value>
+      <footprint>acheron_MX:MX625</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F7C1</tstamp>
+    </comp>
+    <comp ref="D49">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F7EF</tstamp>
+    </comp>
+    <comp ref="SW50">
+      <value>[AltGr]</value>
+      <footprint>acheron_MX:MX125</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F7F5</tstamp>
+    </comp>
+    <comp ref="D54">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F7FC</tstamp>
+    </comp>
+    <comp ref="SW55">
+      <value>[Win]</value>
+      <footprint>acheron_MX:MX125</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F802</tstamp>
+    </comp>
+    <comp ref="D59">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F809</tstamp>
+    </comp>
+    <comp ref="SW60">
+      <value>[Menu]</value>
+      <footprint>acheron_MX:MX125</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6180F80F</tstamp>
+    </comp>
+    <comp ref="D62">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61966B61</tstamp>
+    </comp>
+    <comp ref="SW63">
+      <value>[Ctrl2]</value>
+      <footprint>acheron_MX:MX125</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61966B67</tstamp>
+    </comp>
+    <comp ref="D63">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624B7204</tstamp>
+    </comp>
+    <comp ref="SW64">
+      <value>[Unass]</value>
+      <footprint>acheron_MX:MX125</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624B720A</tstamp>
+    </comp>
+    <comp ref="D64">
+      <value>1N4148W</value>
+      <footprint>Diode_SMD:D_SOD-123</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Small" description="Diode, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625682C4</tstamp>
+    </comp>
+    <comp ref="SW65">
+      <value>[Unass1.25]</value>
+      <footprint>acheron_MX:MX125</footprint>
+      <libsource lib="acheronSymbols" part="MXSwitch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>625682CA</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega32U4-AU</value>
+      <footprint>Package_QFP:TQFP-44_10x10mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-AU" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, TQFP-44"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6121B5B5</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6118ACD4</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>22k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6133E6AF</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>615CFF55</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>5k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616D3071</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6188A561</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>500mA</value>
+      <footprint>Fuse:Fuse_1210_3225Metric_Pad1.42x2.65mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A9C68</tstamp>
+    </comp>
+    <comp ref="D65">
+      <value>PRTR5V0U2X</value>
+      <footprint>Package_TO_SOT_SMD:SOT-143</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf</datasheet>
+      <libsource lib="Power_Protection" part="PRTR5V0U2X" description="Ultra low capacitance double rail-to-rail ESD protection diode, SOT-363"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6161DEB6</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>TYPE-C-31-M-12</value>
+      <footprint>TYPE-C-31-M-12:HRO_TYPE-C-31-M-12</footprint>
+      <fields>
+        <field name="MANUFACTURER">HRO Electronics</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.31mm</field>
+        <field name="PARTREV">A</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="TYPE-C-31-M-12" part="TYPE-C-31-M-12" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61152FA7</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="AVR-ISP-6">
+      <description>Atmel 6-pin ISP connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>IDC?Header*2x03*</fp>
+        <fp>Pin?Header*2x03*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AVR-ISP-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SCK" type="passive"/>
+        <pin num="4" name="MOSI" type="passive"/>
+        <pin num="5" name="~RST" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Small">
+      <description>Diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Fuse_Small">
+      <description>Fuse, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega16U4-AU">
+      <aliases>
+        <alias>ATmega16U4RC-AU</alias>
+        <alias>ATmega32U4-AU</alias>
+        <alias>ATmega32U4RC-AU</alias>
+      </aliases>
+      <description>16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, TQFP-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
+      <footprints>
+        <fp>TQFP*10x10mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega16U4-AU</field>
+        <field name="Footprint">Package_QFP:TQFP-44_10x10mm_P0.8mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PE6" type="BiDi"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="input"/>
+        <pin num="8" name="PB0" type="BiDi"/>
+        <pin num="9" name="PB1" type="BiDi"/>
+        <pin num="10" name="PB2" type="BiDi"/>
+        <pin num="11" name="PB3" type="BiDi"/>
+        <pin num="12" name="PB7" type="BiDi"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="PD0" type="BiDi"/>
+        <pin num="19" name="PD1" type="BiDi"/>
+        <pin num="20" name="PD2" type="BiDi"/>
+        <pin num="21" name="PD3" type="BiDi"/>
+        <pin num="22" name="PD5" type="BiDi"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4" type="BiDi"/>
+        <pin num="26" name="PD6" type="BiDi"/>
+        <pin num="27" name="PD7" type="BiDi"/>
+        <pin num="28" name="PB4" type="BiDi"/>
+        <pin num="29" name="PB5" type="BiDi"/>
+        <pin num="30" name="PB6" type="BiDi"/>
+        <pin num="31" name="PC6" type="BiDi"/>
+        <pin num="32" name="PC7" type="BiDi"/>
+        <pin num="33" name="~HWB~/PE2" type="BiDi"/>
+        <pin num="34" name="VCC" type="passive"/>
+        <pin num="35" name="GND" type="passive"/>
+        <pin num="36" name="PF7" type="BiDi"/>
+        <pin num="37" name="PF6" type="BiDi"/>
+        <pin num="38" name="PF5" type="BiDi"/>
+        <pin num="39" name="PF4" type="BiDi"/>
+        <pin num="40" name="PF1" type="BiDi"/>
+        <pin num="41" name="PF0" type="BiDi"/>
+        <pin num="42" name="AREF" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="AVCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Power_Protection" part="PRTR5V0U2X">
+      <description>Ultra low capacitance double rail-to-rail ESD protection diode, SOT-363</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf</docs>
+      <footprints>
+        <fp>SOT?143*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">PRTR5V0U2X</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-143</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="I/O1" type="passive"/>
+        <pin num="3" name="I/O2" type="passive"/>
+        <pin num="4" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TYPE-C-31-M-12" part="TYPE-C-31-M-12">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">TYPE-C-31-M-12</field>
+        <field name="Footprint">HRO_TYPE-C-31-M-12</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">3.31mm</field>
+        <field name="PARTREV">A</field>
+        <field name="MANUFACTURER">HRO Electronics</field>
+      </fields>
+      <pins>
+        <pin num="A5" name="CC1" type="BiDi"/>
+        <pin num="A6" name="DP1" type="BiDi"/>
+        <pin num="A7" name="DN1" type="BiDi"/>
+        <pin num="A8" name="SBU1" type="BiDi"/>
+        <pin num="A1B12" name="GND" type="power_in"/>
+        <pin num="A4B9" name="VBUS" type="power_in"/>
+        <pin num="B5" name="CC2" type="BiDi"/>
+        <pin num="B6" name="DP2" type="BiDi"/>
+        <pin num="B7" name="DN2" type="BiDi"/>
+        <pin num="B8" name="SBU2" type="BiDi"/>
+        <pin num="B1A12" name="GND" type="power_in"/>
+        <pin num="B4A9" name="VBUS" type="power_in"/>
+        <pin num="S1" name="SHIELD" type="passive"/>
+        <pin num="S2" name="SHIELD" type="passive"/>
+        <pin num="S3" name="SHIELD" type="passive"/>
+        <pin num="S4" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="acheronSymbols" part="MXSwitch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">MXSwitch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Col" type="output"/>
+        <pin num="2" name="Row" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Power_Protection.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Switch.lib</uri>
+    </library>
+    <library logical="TYPE-C-31-M-12">
+      <uri>C:\Users\anapov\Desktop\PCB Projects\2021_08_A_Key_V1.1/Libraries/TYPE-C-31-M-12/TYPE-C-31-M-12.lib</uri>
+    </library>
+    <library logical="acheronSymbols">
+      <uri>C:\Users\anapov\Desktop\PCB Projects\2021_08_A_Key_V1.1/Libraries/AcheronLibrary-master/AcheronLibrary-master/symbols/acheronSymbols.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(D5-Pad2)">
+      <node ref="SW6" pin="2"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="2" name="Net-(D10-Pad2)">
+      <node ref="D10" pin="2"/>
+      <node ref="SW11" pin="2"/>
+    </net>
+    <net code="3" name="Net-(D15-Pad2)">
+      <node ref="SW16" pin="2"/>
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="4" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2"/>
+      <node ref="SW33" pin="2"/>
+    </net>
+    <net code="5" name="Row_3">
+      <node ref="D36" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D48" pin="1"/>
+      <node ref="D63" pin="1"/>
+      <node ref="U1" pin="40"/>
+      <node ref="D44" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D58" pin="1"/>
+      <node ref="D53" pin="1"/>
+    </net>
+    <net code="6" name="Net-(D62-Pad2)">
+      <node ref="SW63" pin="2"/>
+      <node ref="D62" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D49-Pad2)">
+      <node ref="SW50" pin="2"/>
+      <node ref="D49" pin="2"/>
+    </net>
+    <net code="8" name="Row_4">
+      <node ref="D10" pin="1"/>
+      <node ref="U1" pin="36"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D59" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D49" pin="1"/>
+      <node ref="D62" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D54-Pad2)">
+      <node ref="SW55" pin="2"/>
+      <node ref="D54" pin="2"/>
+    </net>
+    <net code="10" name="Net-(D59-Pad2)">
+      <node ref="D59" pin="2"/>
+      <node ref="SW60" pin="2"/>
+    </net>
+    <net code="11" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="SW5" pin="2"/>
+    </net>
+    <net code="12" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="SW10" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D14-Pad2)">
+      <node ref="SW15" pin="2"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="14" name="Row_2">
+      <node ref="D3" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D64" pin="1"/>
+      <node ref="U1" pin="41"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D47" pin="1"/>
+      <node ref="D57" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="D18" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D58-Pad2)">
+      <node ref="SW59" pin="2"/>
+      <node ref="D58" pin="2"/>
+    </net>
+    <net code="16" name="Net-(D53-Pad2)">
+      <node ref="SW54" pin="2"/>
+      <node ref="D53" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D48-Pad2)">
+      <node ref="D48" pin="2"/>
+      <node ref="SW49" pin="2"/>
+    </net>
+    <net code="18" name="Net-(D44-Pad2)">
+      <node ref="D44" pin="2"/>
+      <node ref="SW45" pin="2"/>
+    </net>
+    <net code="19" name="Net-(D19-Pad2)">
+      <node ref="SW20" pin="2"/>
+      <node ref="D19" pin="2"/>
+    </net>
+    <net code="20" name="Net-(D23-Pad2)">
+      <node ref="D23" pin="2"/>
+      <node ref="SW24" pin="2"/>
+    </net>
+    <net code="21" name="Net-(D27-Pad2)">
+      <node ref="SW28" pin="2"/>
+      <node ref="D27" pin="2"/>
+    </net>
+    <net code="22" name="Net-(D31-Pad2)">
+      <node ref="SW32" pin="2"/>
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="23" name="Net-(D36-Pad2)">
+      <node ref="D36" pin="2"/>
+      <node ref="SW37" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D40-Pad2)">
+      <node ref="SW41" pin="2"/>
+      <node ref="D40" pin="2"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="J3" pin="S3"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J3" pin="S2"/>
+      <node ref="J3" pin="S1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U1" pin="23"/>
+      <node ref="R1" pin="2"/>
+      <node ref="J3" pin="S4"/>
+      <node ref="J3" pin="A1B12"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="43"/>
+      <node ref="J3" pin="B1A12"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U1" pin="35"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="D65" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="27" name="/DP">
+      <node ref="U1" pin="4"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="29" name="Net-(U1-Pad27)">
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="30" name="VCC">
+      <node ref="J3" pin="B4A9"/>
+      <node ref="F1" pin="1"/>
+      <node ref="D65" pin="4"/>
+      <node ref="J3" pin="A4B9"/>
+    </net>
+    <net code="31" name="Net-(J3-PadB8)">
+      <node ref="J3" pin="B8"/>
+    </net>
+    <net code="32" name="Net-(J3-PadB5)">
+      <node ref="J3" pin="B5"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="33" name="Net-(J3-PadA8)">
+      <node ref="J3" pin="A8"/>
+    </net>
+    <net code="34" name="Net-(D65-Pad3)">
+      <node ref="J3" pin="B7"/>
+      <node ref="D65" pin="3"/>
+      <node ref="J3" pin="A7"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="35" name="Net-(J3-PadA5)">
+      <node ref="R1" pin="1"/>
+      <node ref="J3" pin="A5"/>
+    </net>
+    <net code="36" name="Net-(D64-Pad2)">
+      <node ref="D64" pin="2"/>
+      <node ref="SW65" pin="2"/>
+    </net>
+    <net code="37" name="Net-(D63-Pad2)">
+      <node ref="D63" pin="2"/>
+      <node ref="SW64" pin="2"/>
+    </net>
+    <net code="38" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="33"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="39" name="Row_0">
+      <node ref="D60" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="D24" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="D28" pin="1"/>
+    </net>
+    <net code="40" name="/XTAL2">
+      <node ref="U1" pin="16"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="41" name="/XTAL1">
+      <node ref="Y1" pin="1"/>
+      <node ref="U1" pin="17"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="42" name="Col_8">
+      <node ref="SW38" pin="1"/>
+      <node ref="SW39" pin="1"/>
+      <node ref="SW40" pin="1"/>
+      <node ref="SW41" pin="1"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="43" name="Net-(D65-Pad2)">
+      <node ref="J3" pin="A6"/>
+      <node ref="J3" pin="B6"/>
+      <node ref="D65" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="44" name="/DN">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="45" name="Col_7">
+      <node ref="SW35" pin="1"/>
+      <node ref="SW37" pin="1"/>
+      <node ref="SW34" pin="1"/>
+      <node ref="SW36" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="46" name="Col_4">
+      <node ref="SW21" pin="1"/>
+      <node ref="SW24" pin="1"/>
+      <node ref="SW23" pin="1"/>
+      <node ref="SW22" pin="1"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="47" name="Col_9">
+      <node ref="SW43" pin="1"/>
+      <node ref="U1" pin="19"/>
+      <node ref="SW44" pin="1"/>
+      <node ref="SW42" pin="1"/>
+      <node ref="SW45" pin="1"/>
+    </net>
+    <net code="48" name="Col_10">
+      <node ref="SW46" pin="1"/>
+      <node ref="SW47" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="SW50" pin="1"/>
+      <node ref="SW48" pin="1"/>
+      <node ref="SW49" pin="1"/>
+    </net>
+    <net code="49" name="Col_11">
+      <node ref="SW53" pin="1"/>
+      <node ref="SW51" pin="1"/>
+      <node ref="SW55" pin="1"/>
+      <node ref="SW54" pin="1"/>
+      <node ref="SW52" pin="1"/>
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="50" name="Col_13">
+      <node ref="U1" pin="22"/>
+      <node ref="SW65" pin="1"/>
+      <node ref="SW62" pin="1"/>
+      <node ref="SW64" pin="1"/>
+      <node ref="SW63" pin="1"/>
+      <node ref="SW61" pin="1"/>
+    </net>
+    <net code="51" name="Col_12">
+      <node ref="U1" pin="25"/>
+      <node ref="SW58" pin="1"/>
+      <node ref="SW60" pin="1"/>
+      <node ref="SW56" pin="1"/>
+      <node ref="SW59" pin="1"/>
+      <node ref="SW57" pin="1"/>
+    </net>
+    <net code="52" name="Col_0">
+      <node ref="SW6" pin="1"/>
+      <node ref="SW5" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="U1" pin="28"/>
+      <node ref="SW2" pin="1"/>
+    </net>
+    <net code="53" name="Col_1">
+      <node ref="SW11" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="SW10" pin="1"/>
+      <node ref="SW8" pin="1"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="54" name="Col_2">
+      <node ref="SW13" pin="1"/>
+      <node ref="SW14" pin="1"/>
+      <node ref="SW12" pin="1"/>
+      <node ref="U1" pin="30"/>
+      <node ref="SW16" pin="1"/>
+      <node ref="SW15" pin="1"/>
+    </net>
+    <net code="55" name="Col_3">
+      <node ref="SW18" pin="1"/>
+      <node ref="SW17" pin="1"/>
+      <node ref="SW19" pin="1"/>
+      <node ref="U1" pin="31"/>
+      <node ref="SW20" pin="1"/>
+    </net>
+    <net code="56" name="Col_6">
+      <node ref="SW32" pin="1"/>
+      <node ref="SW31" pin="1"/>
+      <node ref="SW33" pin="1"/>
+      <node ref="SW29" pin="1"/>
+      <node ref="SW30" pin="1"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="57" name="Col_5">
+      <node ref="SW28" pin="1"/>
+      <node ref="SW26" pin="1"/>
+      <node ref="SW27" pin="1"/>
+      <node ref="U1" pin="38"/>
+      <node ref="SW25" pin="1"/>
+    </net>
+    <net code="58" name="Row_1">
+      <node ref="D61" pin="1"/>
+      <node ref="D51" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D46" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D34" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D21" pin="1"/>
+      <node ref="D56" pin="1"/>
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="59" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="60" name="Net-(D24-Pad2)">
+      <node ref="SW25" pin="2"/>
+      <node ref="D24" pin="2"/>
+    </net>
+    <net code="61" name="Net-(D28-Pad2)">
+      <node ref="SW29" pin="2"/>
+      <node ref="D28" pin="2"/>
+    </net>
+    <net code="62" name="Net-(D20-Pad2)">
+      <node ref="SW21" pin="2"/>
+      <node ref="D20" pin="2"/>
+    </net>
+    <net code="63" name="Net-(D33-Pad2)">
+      <node ref="SW34" pin="2"/>
+      <node ref="D33" pin="2"/>
+    </net>
+    <net code="64" name="Net-(D37-Pad2)">
+      <node ref="SW38" pin="2"/>
+      <node ref="D37" pin="2"/>
+    </net>
+    <net code="65" name="Net-(D6-Pad2)">
+      <node ref="SW7" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="66" name="Net-(D1-Pad2)">
+      <node ref="SW2" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="67" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="68" name="Net-(D11-Pad2)">
+      <node ref="SW12" pin="2"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2"/>
+      <node ref="SW17" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D41-Pad2)">
+      <node ref="D41" pin="2"/>
+      <node ref="SW42" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D45-Pad2)">
+      <node ref="SW46" pin="2"/>
+      <node ref="D45" pin="2"/>
+    </net>
+    <net code="72" name="Net-(D50-Pad2)">
+      <node ref="SW51" pin="2"/>
+      <node ref="D50" pin="2"/>
+    </net>
+    <net code="73" name="Net-(D55-Pad2)">
+      <node ref="D55" pin="2"/>
+      <node ref="SW56" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D60-Pad2)">
+      <node ref="D60" pin="2"/>
+      <node ref="SW61" pin="2"/>
+    </net>
+    <net code="75" name="/RST">
+      <node ref="J1" pin="5"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="13"/>
+      <node ref="C6" pin="1"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="76" name="/MOSI">
+      <node ref="U1" pin="10"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="77" name="/SCK">
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="78" name="/MISO">
+      <node ref="U1" pin="11"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="79" name="+5V">
+      <node ref="C10" pin="1"/>
+      <node ref="F1" pin="2"/>
+      <node ref="U1" pin="44"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="42"/>
+      <node ref="U1" pin="34"/>
+      <node ref="U1" pin="24"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C4" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="80" name="Net-(D3-Pad2)">
+      <node ref="SW4" pin="2"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="SW9" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D13-Pad2)">
+      <node ref="SW14" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D61-Pad2)">
+      <node ref="D61" pin="2"/>
+      <node ref="SW62" pin="2"/>
+    </net>
+    <net code="84" name="Net-(D57-Pad2)">
+      <node ref="SW58" pin="2"/>
+      <node ref="D57" pin="2"/>
+    </net>
+    <net code="85" name="Net-(D52-Pad2)">
+      <node ref="SW53" pin="2"/>
+      <node ref="D52" pin="2"/>
+    </net>
+    <net code="86" name="Net-(D47-Pad2)">
+      <node ref="D47" pin="2"/>
+      <node ref="SW48" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D43-Pad2)">
+      <node ref="SW44" pin="2"/>
+      <node ref="D43" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="SW19" pin="2"/>
+    </net>
+    <net code="89" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2"/>
+      <node ref="SW23" pin="2"/>
+    </net>
+    <net code="90" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2"/>
+      <node ref="SW27" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D56-Pad2)">
+      <node ref="D56" pin="2"/>
+      <node ref="SW57" pin="2"/>
+    </net>
+    <net code="92" name="Net-(D30-Pad2)">
+      <node ref="D30" pin="2"/>
+      <node ref="SW31" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D35-Pad2)">
+      <node ref="D35" pin="2"/>
+      <node ref="SW36" pin="2"/>
+    </net>
+    <net code="94" name="Net-(D39-Pad2)">
+      <node ref="D39" pin="2"/>
+      <node ref="SW40" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D2-Pad2)">
+      <node ref="SW3" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="96" name="Net-(D7-Pad2)">
+      <node ref="SW8" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="97" name="Net-(D12-Pad2)">
+      <node ref="D12" pin="2"/>
+      <node ref="SW13" pin="2"/>
+    </net>
+    <net code="98" name="Net-(D42-Pad2)">
+      <node ref="D42" pin="2"/>
+      <node ref="SW43" pin="2"/>
+    </net>
+    <net code="99" name="Net-(D38-Pad2)">
+      <node ref="D38" pin="2"/>
+      <node ref="SW39" pin="2"/>
+    </net>
+    <net code="100" name="Net-(D46-Pad2)">
+      <node ref="SW47" pin="2"/>
+      <node ref="D46" pin="2"/>
+    </net>
+    <net code="101" name="Net-(D51-Pad2)">
+      <node ref="SW52" pin="2"/>
+      <node ref="D51" pin="2"/>
+    </net>
+    <net code="102" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+      <node ref="SW26" pin="2"/>
+    </net>
+    <net code="103" name="Net-(D17-Pad2)">
+      <node ref="SW18" pin="2"/>
+      <node ref="D17" pin="2"/>
+    </net>
+    <net code="104" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2"/>
+      <node ref="SW22" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D29-Pad2)">
+      <node ref="SW30" pin="2"/>
+      <node ref="D29" pin="2"/>
+    </net>
+    <net code="106" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2"/>
+      <node ref="SW35" pin="2"/>
+    </net>
+  </nets>
+</export>
